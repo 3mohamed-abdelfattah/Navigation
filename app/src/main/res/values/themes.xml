@@ -6,6 +6,7 @@
     </style>
 
     <style name="Theme.Navigation" parent="Base.Theme.Navigation" />
+
     <style name="ThemeOverlay.Navigation.FullscreenContainer" parent="">
         <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
         <item name="fullscreenTextColor">@color/light_blue_A200</item>
