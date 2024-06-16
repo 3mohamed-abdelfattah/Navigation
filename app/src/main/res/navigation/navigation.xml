@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.navigation.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/blankFragmentA"
+        android:name="com.example.navigation.BlankFragmentA"
+        android:label="fragment_blank_a"
+        tools:layout="@layout/fragment_blank_a" >
+        <action
+            android:id="@+id/action_blankFragmentA_to_blankFragmentC2"
+            app:destination="@id/blankFragmentC" />
+        <action
+            android:id="@+id/action_blankFragmentA_to_blankFragmentB"
+            app:destination="@id/blankFragmentB" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragmentB"
+        android:name="com.example.navigation.BlankFragmentB"
+        android:label="fragment_blank_b"
+        tools:layout="@layout/fragment_blank_b" />
+    <fragment
+        android:id="@+id/blankFragmentC"
+        android:name="com.example.navigation.BlankFragmentC"
+        android:label="fragment_blank_c"
+        tools:layout="@layout/fragment_blank_c" >
+        <action
+            android:id="@+id/action_blankFragmentC_to_blankFragmentD"
+            app:destination="@id/blankFragmentD" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragmentD"
+        android:name="com.example.navigation.BlankFragmentD"
+        android:label="fragment_blank_d"
+        tools:layout="@layout/fragment_blank_d" />
+</navigation>
