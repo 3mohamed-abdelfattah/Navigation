@@ -28,8 +28,8 @@ id("androidx.navigation.safeargs.kotlin")
 ```
 
 ####  Android Developer Guide
-[Android developer navigation](https://developer.android.com/guide/navigation)
-[Pass data between destinations](https://developer.android.com/guide/navigation/use-graph/pass-data)
+-[Android developer navigation](https://developer.android.com/guide/navigation)
+-[Pass data between destinations](https://developer.android.com/guide/navigation/use-graph/pass-data)
 
 
 ### Dependencies
